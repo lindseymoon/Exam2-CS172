@@ -1,0 +1,66 @@
+﻿  City.cpp
+c:\users\lmoon20\desktop\exam 2\exam 2\city.h(16): error C2065: 'Citizen': undeclared identifier
+c:\users\lmoon20\desktop\exam 2\exam 2\city.h(16): error C2059: syntax error: '>'
+c:\users\lmoon20\desktop\exam 2\exam 2\city.h(16): error C2976: 'std::vector': too few template arguments
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(679): note: see declaration of 'std::vector'
+c:\users\lmoon20\desktop\exam 2\exam 2\city.h(41): error C2143: syntax error: missing ';' before '*'
+c:\users\lmoon20\desktop\exam 2\exam 2\city.h(41): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\lmoon20\desktop\exam 2\exam 2\city.h(41): error C2238: unexpected token(s) preceding ';'
+c:\users\lmoon20\desktop\exam 2\exam 2\city.h(46): error C2061: syntax error: identifier 'Citizen'
+c:\users\lmoon20\desktop\exam 2\exam 2\city.h(49): error C2143: syntax error: missing ';' before '*'
+c:\users\lmoon20\desktop\exam 2\exam 2\city.h(49): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\lmoon20\desktop\exam 2\exam 2\city.h(49): error C2238: unexpected token(s) preceding ';'
+c:\users\lmoon20\desktop\exam 2\exam 2\city.h(55): error C2065: 'Citizen': undeclared identifier
+c:\users\lmoon20\desktop\exam 2\exam 2\city.h(55): error C2059: syntax error: '>'
+c:\users\lmoon20\desktop\exam 2\exam 2\city.h(55): error C2976: 'std::vector': too few template arguments
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(679): note: see declaration of 'std::vector'
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(13): error C2512: 'std::vector': no appropriate default constructor available
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(679): note: see declaration of 'std::vector'
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(37): warning C4018: '<': signed/unsigned mismatch
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(45): warning C4018: '<': signed/unsigned mismatch
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(51): error C2374: 'outfile': redefinition; multiple initialization
+  c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(34): note: see declaration of 'outfile'
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(54): warning C4018: '<': signed/unsigned mismatch
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(56): error C2039: 'getId': is not a member of 'City'
+  c:\users\lmoon20\desktop\exam 2\exam 2\city.h(11): note: see declaration of 'City'
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(57): error C2039: 'getFirstName': is not a member of 'City'
+  c:\users\lmoon20\desktop\exam 2\exam 2\city.h(11): note: see declaration of 'City'
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(58): error C2039: 'getLastName': is not a member of 'City'
+  c:\users\lmoon20\desktop\exam 2\exam 2\city.h(11): note: see declaration of 'City'
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(59): error C2039: 'getFavoriteColor': is not a member of 'City'
+  c:\users\lmoon20\desktop\exam 2\exam 2\city.h(11): note: see declaration of 'City'
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(78): error C2039: 'getCitizenAtIndex': is not a member of 'City'
+  c:\users\lmoon20\desktop\exam 2\exam 2\city.h(11): note: see declaration of 'City'
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(80): error C2065: 'nameOfCitizen': undeclared identifier
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(80): error C2228: left of '.size' must have class/struct/union
+  c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(80): note: type is 'unknown-type'
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(82): error C2065: 'nameOfCitizen': undeclared identifier
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(89): error C2511: 'void City::addCitizen(Citizen *)': overloaded member function not found in 'City'
+  c:\users\lmoon20\desktop\exam 2\exam 2\city.h(11): note: see declaration of 'City'
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(90): error C2082: redefinition of formal parameter 'citizen'
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(91): error C2228: left of '.push_back' must have class/struct/union
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(95): error C2039: 'getCitizenWithId': is not a member of 'City'
+  c:\users\lmoon20\desktop\exam 2\exam 2\city.h(11): note: see declaration of 'City'
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(97): error C2065: 'nameOfCitizen': undeclared identifier
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(97): error C2228: left of '.size' must have class/struct/union
+  c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(97): note: type is 'unknown-type'
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(99): error C2065: 'nameOfCitizen': undeclared identifier
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(99): error C2227: left of '->getId' must point to class/struct/union/generic type
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(101): error C2065: 'nameOfCitizen': undeclared identifier
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(109): error C2556: 'std::vector<Citizen *,std::allocator<_Ty>> City::getCitizensForFavoriteColor(std::string)': overloaded function differs only by return type from 'std::vector City::getCitizensForFavoriteColor(std::string)'
+          with
+          [
+              _Ty=Citizen *
+          ]
+  c:\users\lmoon20\desktop\exam 2\exam 2\city.h(55): note: see declaration of 'City::getCitizensForFavoriteColor'
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(108): error C2371: 'City::getCitizensForFavoriteColor': redefinition; different basic types
+  c:\users\lmoon20\desktop\exam 2\exam 2\city.h(55): note: see declaration of 'City::getCitizensForFavoriteColor'
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(109): error C2079: 'City::getCitizensForFavoriteColor' uses undefined class 'std::vector'
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(110): error C2662: '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(110): note: Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+  c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(110): note: Conversion requires a second user-defined-conversion operator or constructor
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(112): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1229): note: could be '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1213): note: or       '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::const_reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type) const'
+  c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(112): note: while trying to match the argument list '(std::vector, int)'
+c:\users\lmoon20\desktop\exam 2\exam 2\city.cpp(112): error C2227: left of '->getFavoriteColor' must point to class/struct/union/generic type
